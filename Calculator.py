@@ -1,25 +1,25 @@
 a=int(input("Choose your operation. 1 for addition, 2 for subtraction, 3 for multiplication and 4 for division"))
 b=int(input("Enter your first number"))
 c=int(input("Enter your second number"))
-def add():
+def add(b,c):
     d=b+c
     return d
-def subtract():
+def subtract(b,c):
     d=b-c
     return d
-def multiply():
+def multiply(b,c):
     d=b*c
     return d
-def divide():
+def divide(b,c):
     d=b/c
     return d
 if(a==1):
-    add()
+    add(b,c)
 if(a==2):
-    subtract()
+    subtract(b,c)
 if(a==3):
-    multiply()
+    multiply(b,c)
 if(a==4):
-    divide()
+    divide(b,c)
 if(a>4):
     print("Option Invalid")
