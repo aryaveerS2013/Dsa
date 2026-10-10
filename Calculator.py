@@ -13,4 +13,13 @@ def multiply():
 def divide():
     d=b/c
     return d
-    
+if(a==1):
+    add()
+if(a==2):
+    subtract()
+if(a==3):
+    multiply()
+if(a==4):
+    divide()
+if(a>4):
+    print("Option Invalid")
