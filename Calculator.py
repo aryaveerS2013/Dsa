@@ -14,12 +14,12 @@ def divide(b,c):
     d=b/c
     return d
 if(a==1):
-    print("Answer:"add(b,c))
+    print("Answer:",add(b,c))
 if(a==2):
-    print("Answer:"subtract(b,c))
+    print("Answer:",subtract(b,c))
 if(a==3):
-    print("Answer:"multiply(b,c))
+    print("Answer:",multiply(b,c))
 if(a==4):
-    print("Answer:"divide(b,c))
+    print("Answer:",divide(b,c))
 if(a>4):
     print("Option Invalid")
